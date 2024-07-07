@@ -16,4 +16,4 @@ if temprature == float or int:
     elif unit.upper() == 'F':
         print(f"{temprature}°F is {convert_to_celsius(temprature)}°C")
 else:
-    print("You entered a wrong input. Please enter a numeric value.")
+    print("Invalid temperature. Please enter a numeric value.")
